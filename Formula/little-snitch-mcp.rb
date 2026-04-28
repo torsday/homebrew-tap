@@ -1,7 +1,7 @@
 class LittleSnitchMcp < Formula
   desc "MCP server for the Little Snitch macOS firewall"
   homepage "https://github.com/torsday/little-snitch-mcp"
-  version "0.0.0"
+  version "1.0.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   # NOTE: this formula is a placeholder until little-snitch-mcp v1.0.0 ships.
@@ -15,12 +15,12 @@ class LittleSnitchMcp < Formula
   on_macos do
     on_arm do
       url "https://github.com/torsday/little-snitch-mcp/releases/download/v#{version}/little-snitch-mcp-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "8d675b9bb74e069c90073ca37f6167bc05242584ff84f4893e526fdcc2cd8968"
     end
 
     on_intel do
       url "https://github.com/torsday/little-snitch-mcp/releases/download/v#{version}/little-snitch-mcp-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "46d6489b0a6a3403c33a89f3fc381741da472faa9ea59a92cb6b5fba26246aa8"
     end
   end
 
