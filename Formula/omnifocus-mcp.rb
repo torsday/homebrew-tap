@@ -1,10 +1,10 @@
 class OmnifocusMcp < Formula
   desc "MCP server exposing the full OmniFocus surface to LLM agents"
   homepage "https://github.com/torsday/omnifocus-mcp"
-  url "https://registry.npmjs.org/@torsday/omnifocus-mcp/-/omnifocus-mcp-1.0.2.tgz"
-  sha256 "013670356754dede8a82ae9628f359b435979fbdf61b569a486d74280d534278"
+  url "https://registry.npmjs.org/@torsday/omnifocus-mcp/-/omnifocus-mcp-1.2.0.tgz"
+  sha256 "6b04141d1b799c0243bce99a6eb06278f7ae3755e5d2d45331bb958dec650d2f"
   license "MIT"
-  version "1.0.2"
+  version "1.2.0"
 
   depends_on "node"
   depends_on :macos
