@@ -24,7 +24,6 @@ class LittleSnitchMcp < Formula
     end
   end
 
-  depends_on :macos
   depends_on macos: :sonoma
 
   def install
